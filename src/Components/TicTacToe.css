@@ -1,0 +1,53 @@
+.tictactoe{
+    height: auto;
+    width: 15rem;
+    padding: 1rem 7rem;
+    padding-bottom: 2rem;
+    background-color: rgb(237, 237, 232);
+    border: 3px solid rgb(117, 3, 3);
+    text-align: center;
+}
+.parentButtons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+}
+.buttons button{
+    height: 4rem;
+    width: 4rem;
+    font-size: 3rem;
+    border-radius: 3px;
+    cursor: pointer;
+   
+}
+.strike button{
+    height: 3rem;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border: 2px solid rgb(117, 3, 3);
+    background-color: rgb(142, 175, 237);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.winner .over{
+    height: 3rem;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border: 2px solid rgb(117, 3, 3);
+    background-color: rgb(231, 199, 145);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.reset{
+    height: 3rem;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border: 2px solid rgb(117, 3, 3);
+    background-color: rgb(146, 145, 143);
+    border-radius: 1rem;
+    cursor: pointer;
+}
